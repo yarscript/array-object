@@ -1,0 +1,26 @@
+{
+  "name": "yarscript/array-object",
+  "description": "Native PHP \\ArrayObject extending",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yaroslav Shportko",
+      "homepage": "https://github.com/yarscript",
+      "role": "developer"
+    }
+  ],
+  "keywords": [
+    "yarscript",
+    "array_object"
+  ],
+  "homepage": "https://github.com/yarscript/array-object",
+  "require": {
+    "php": "^7.4|8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Yarscript\\ArrayObject\\": "src/"
+    }
+  }
+}
